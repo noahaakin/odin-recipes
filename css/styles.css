@@ -1,5 +1,24 @@
-#nav {
+.nav {
     padding: 30px;
     text-align: center;
     margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+    border: 2px solid indigo;
+    background: plum;
+    height: 140px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.flex-container div {
+    background: skyblue;
+    border: 2px solid darkslategrey;
+    height: 60px;
+    width: 60px;
 }
